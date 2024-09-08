@@ -1,7 +1,7 @@
 use std::process::Command;
 use std::io::{self, BufRead};
 use std::env;
-use which::which; // Add the 'which' crate in Cargo.toml
+use which::which;
 use regex::Regex;
 
 fn main() -> io::Result<()> {
